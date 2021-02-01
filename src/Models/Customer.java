@@ -6,6 +6,31 @@ public class Customer {
     private String Name;
     private double Balance;
 
+
+    private String AccountStatus;
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "CustID=" + CustID +
+                ", Name='" + Name + '\'' +
+                ", Balance=" + Balance +
+                ", AccountStatus='" + AccountStatus + '\'' +
+                '}';
+    }
+
+
+    public String getAccountStatus() {
+        return AccountStatus;
+    }
+
+    public void setAccountStatus(String accountStatus) {
+        AccountStatus = accountStatus;
+    }
+
+
+
+
     public int getCustID() {
         return CustID;
     }
@@ -30,13 +55,20 @@ public class Customer {
         Balance = balance;
     }
 
-
+// Constructor for w/o status
     public Customer(int custID, String name, double balance) {
         CustID = custID;
         Name = name;
         Balance = balance;
     }
 
+    // Constructor w/status
+    public Customer(int custID, String name, double balance, String accountStatus) {
+        CustID = custID;
+        Name = name;
+        Balance = balance;
+        AccountStatus = accountStatus;
+    }
 
 
 
