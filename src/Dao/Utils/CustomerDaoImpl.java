@@ -12,8 +12,8 @@ public class CustomerDaoImpl implements CustomerDao {
 
     public CustomerDaoImpl() {
         customers = new ArrayList<Customer>();
-        Customer cust1 = new Customer(1,"Robert", 0.00 );
-        Customer cust2 = new Customer(2,"Rob", 0.00 );
+        Customer cust1 = new Customer(1,"Robert", 0.00 , "Good Standing");
+        Customer cust2 = new Customer(2,"Rob", 0.00, "Good Standing" );
         customers.add(cust1);
         customers.add(cust2);
     }

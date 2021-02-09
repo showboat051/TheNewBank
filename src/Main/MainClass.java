@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MainClass {
     public static void main(String[] args) {
 
-        Customer cust = new Customer(1, "Mr code", 50.00);
+        Customer cust = new Customer(1, "Mr code", 50.00 , "Good Standing");
         System.out.println(cust);
 
 
