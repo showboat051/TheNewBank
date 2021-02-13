@@ -78,7 +78,7 @@ public class Customer {
         } else {
             AccountStatus = "Good Standing";
         }
-
+              /*
         Scanner nameQues = new Scanner(System.in);
         System.out.println("Enter your name");
 
@@ -112,7 +112,7 @@ public class Customer {
 
 
         } // end of switch cases
-
+*/
     } // end of Customer with 4 arguments
 
 } // END OF CUSTOMER CLASS
